@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://media.istockphoto.com/id/1375897235/photo/glass-hourglass-with-glowing-sand.jpg?s=612x612&w=0&k=20&c=9uWVNTq0vbzCgj4hxHwqLs3uYDy8G7RLcZV0K1mDtRY=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: c;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  width: 600px;
+  background-color: #000;
+  color: #00ff00;
+  font-size: 7em;
+  text-shadow: 0 0 0px #738d73;
+}
+
+.timer div {
+  width: 100px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.timer div span {
+  position: absolute;
+  top: 0;
+  transition: top 0.5s;
+}
+
+.timer div span.down {
+  top: -100%;
+}
